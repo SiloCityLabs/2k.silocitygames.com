@@ -2,37 +2,30 @@ import { Container, Row, Col, Button } from "react-bootstrap";
 // --- Layout ---
 import PageLayout from "@/components/PageLayout";
 
-// Define your chosen site name
 const siteName = process.env.NEXT_PUBLIC_APP_NAME;
-// Define the primary/current NBA 2K version for focus
 const current2K = "NBA 2K25";
-// Define the next anticipated version
 const next2K = "NBA 2K26";
-// You could add previous versions if you plan archive data
-const prev2K = "NBA 2K24";
+// const prev2K = "NBA 2K24";
 
 export default function HomePage() {
   return (
     <PageLayout>
-      {/* Hero Introduction */}
       <Container className="mt-5 mb-5 text-center">
-        {/* Main headline focused on the current game */}
         <h1>Craft Your Perfect {current2K} MyPlayer</h1>
         <p className="lead">
-          Welcome to {siteName} – Your ultimate hub for planning, testing, and
-          perfecting MyPlayer builds across NBA 2K! Get started with our
+          Welcome to {siteName} &ndash; Your ultimate hub for planning, testing,
+          and perfecting MyPlayer builds across NBA 2K! Get started with our
           powerful tools for {current2K} and be ready for {next2K} and beyond.
         </p>
-        {/* Buttons linking to specific builders or a selection page */}
         <Button
           variant="primary"
           size="lg"
           href={`/builder/${current2K.toLowerCase().replace(" ", "")}`}
           className="mt-3 mx-2"
+          disabled
         >
           Go to {current2K} Builder
         </Button>
-        {/* Example link for a future version (can be disabled or lead to an info page) */}
         <Button
           variant="outline-secondary"
           size="lg"
@@ -40,27 +33,24 @@ export default function HomePage() {
           className="mt-3 mx-2"
           disabled
         >
-          {" "}
-          {/* disabled until ready */}
-          {next2K} Builder (Coming Soon)
+          {next2K} Builder (Coming This Fall)
         </Button>
         {/* Optional: Link for previous version if you add archived data */}
 
-        <Button
+        {/* <Button
           variant="outline-info"
           size="lg"
           href={`/builder/${prev2K.toLowerCase().replace(" ", "")}`}
           className="mt-3 mx-2"
         >
           View {prev2K} Data
-        </Button>
+        </Button> */}
       </Container>
 
       {/* Informational Block */}
       <Container className="mb-5">
         <Row className="shadow-lg p-4 bg-body rounded">
           <Col lg={10} className="mx-auto">
-            {/* Heading reflects the multi-year goal */}
             <h3 className="text-center mb-3">
               Build Smarter Across Every 2K Season
             </h3>
@@ -83,7 +73,7 @@ export default function HomePage() {
               and continues right here!
             </p>
             {/* Optional: Links to data specific to the current version */}
-            <div className="text-center mt-4">
+            {/* <div className="text-center mt-4">
               <Button
                 variant="link"
                 href={`/badges/${current2K.toLowerCase().replace(" ", "")}`}
@@ -97,7 +87,7 @@ export default function HomePage() {
               >
                 Explore {current2K} Attribute Caps
               </Button>
-            </div>
+            </div> */}
           </Col>
         </Row>
       </Container>
