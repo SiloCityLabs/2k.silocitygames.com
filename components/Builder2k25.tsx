@@ -200,6 +200,7 @@ function Builder2k25() {
             ) : (
               <>
                 <div
+                  className="text-center"
                   dangerouslySetInnerHTML={{
                     __html: noAttrInfoLink(
                       "2k25",
