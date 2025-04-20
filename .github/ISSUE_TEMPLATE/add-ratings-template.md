@@ -1,5 +1,5 @@
 ---
-name: Manage Weapon Attachments Template
+name: Add 2K Ratings Template
 about: Create a custom feature request
 title: "[InsertGame] - Add 2K Ratings - [P-{position}/H-{height}/W-{weight}]"
 labels: enhancement
