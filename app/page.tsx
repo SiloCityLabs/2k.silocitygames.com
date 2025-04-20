@@ -22,7 +22,6 @@ export default function HomePage() {
           size="lg"
           href={`/builder/${current2K.toLowerCase().replace(" ", "")}`}
           className="mt-3 mx-2"
-          disabled
         >
           Go to {current2K} Builder
         </Button>
@@ -55,7 +54,7 @@ export default function HomePage() {
               Build Smarter Across Every 2K Season
             </h3>
             <p>
-              Tired of wasting VC on builds that don't quite work out?{" "}
+              Tired of wasting VC on builds that don&apos;t quite work out?{" "}
               {siteName} is designed to help you dominate the court, starting
               with our full support for {current2K}. Our comprehensive tools let
               you experiment endlessly *before* you commit your attributes
@@ -67,7 +66,7 @@ export default function HomePage() {
               understand their impact, and simulate your entire build using our
               intuitive online tester. We are dedicated to providing the most
               accurate, up-to-date information for {current2K}, and crucially,{" "}
-              {siteName} is built with the future in mind. We're already
+              {siteName} is built with the future in mind. We&apos;re already
               preparing our framework to support {next2K} and future releases
               right from launch day. Your journey to the perfect build starts
               and continues right here!

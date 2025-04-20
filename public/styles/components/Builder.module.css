@@ -1,0 +1,23 @@
+.row-finishing {
+  border-left: 4px solid blue !important;
+}
+
+.row-shooting {
+  border-left: 4px solid green !important;
+}
+
+.row-playmaking {
+  border-left: 4px solid yellow !important;
+}
+
+.row-defense {
+  border-left: 4px solid red !important;
+}
+
+.row-rebounding {
+  border-left: 4px solid purple !important;
+}
+
+.row-physicals {
+  border-left: 4px solid brown !important;
+}
