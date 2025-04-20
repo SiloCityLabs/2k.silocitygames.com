@@ -1,0 +1,22 @@
+[
+    {
+        "position": "PG",
+        "name": "Point Guard"
+    },
+    {
+        "position": "SG",
+        "name": "Shooting Guard"
+    },
+    {
+        "position": "SF",
+        "name": "Small Forward"
+    },
+    {
+        "position": "PF",
+        "name": "Power Forward"
+    },
+    {
+        "position": "C",
+        "name": "Center"
+    }
+]

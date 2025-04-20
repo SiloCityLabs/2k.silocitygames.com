@@ -1,0 +1,194 @@
+{
+  "6'3": {
+    "finishing": {
+      "driving_dunk": 90,
+      "standing_dunk": 49,
+      "post_control": 79
+    },
+    "shooting": {
+      "mid_range_shot": 99,
+      "three_point_shot": 99
+    },
+    "defense": {
+      "interior_defense": 72,
+      "perimeter_defense": 94,
+      "steal": 93,
+      "block": 59
+    },
+    "rebounding": {
+      "offensive_rebound": 61,
+      "defensive_rebound": 61
+    },
+    "physicals": {
+      "strength": 75
+    }
+  },
+  "6'4": {
+    "finishing": {
+      "driving_dunk": 91,
+      "standing_dunk": 49,
+      "post_control": 79
+    },
+    "shooting": {
+      "mid_range_shot": 99,
+      "three_point_shot": 98
+    },
+    "defense": {
+      "interior_defense": 72,
+      "perimeter_defense": 95,
+      "steal": 95,
+      "block": 60
+    },
+    "rebounding": {
+      "offensive_rebound": 62,
+      "defensive_rebound": 62
+    }
+  },
+  "6'5": {
+    "finishing": {
+      "driving_dunk": 92,
+      "standing_dunk": 50,
+      "post_control": 79
+    },
+    "shooting": {
+      "mid_range_shot": 99,
+      "three_point_shot": 97
+    },
+    "defense": {
+      "interior_defense": 72,
+      "perimeter_defense": 96,
+      "steal": 97,
+      "block": 61
+    },
+    "rebounding": {
+      "offensive_rebound": 63,
+      "defensive_rebound": 63
+    },
+    "physicals": {
+      "strength": 73
+    }
+  },
+  "6'6": {
+    "finishing": {
+      "driving_dunk": 93,
+      "standing_dunk": 50,
+      "post_control": 79
+    },
+    "shooting": {
+      "mid_range_shot": 98,
+      "three_point_shot": 95
+    },
+    "defense": {
+      "interior_defense": 72,
+      "perimeter_defense": 97,
+      "block": 62
+    },
+    "rebounding": {
+      "offensive_rebound": 64,
+      "defensive_rebound": 64
+    },
+    "physicals": {
+      "strength": 72
+    }
+  },
+  "6'7": {
+    "finishing": {
+      "post_control": 79
+    },
+    "defense": {
+      "interior_defense": 72,
+      "perimeter_defense": 98
+    },
+    "rebounding": {
+      "offensive_rebound": 65,
+      "defensive_rebound": 65
+    },
+    "physicals": {
+      "strength": 71
+    }
+  },
+  "6'8": {
+    "finishing": {
+      "driving_dunk": 95,
+      "post_control": 79
+    },
+    "shooting": {
+      "mid_range_shot": 95,
+      "three_point_shot": 92
+    },
+    "defense": {
+      "interior_defense": 72,
+      "perimeter_defense": 98,
+      "block": 65
+    },
+    "physicals": {
+      "strength": 70
+    }
+  },
+  "6'9": {
+    "finishing": {
+      "driving_dunk": 96,
+      "standing_dunk": 52,
+      "post_control": 79
+    },
+    "shooting": {
+      "mid_range_shot": 93,
+      "three_point_shot": 91
+    },
+    "defense": {
+      "interior_defense": 72,
+      "block": 66
+    },
+    "rebounding": {
+      "offensive_rebound": 67,
+      "defensive_rebound": 67
+    },
+    "physicals": {
+      "strength": 69
+    }
+  },
+  "6'10": {
+    "finishing": {
+      "driving_dunk": 96,
+      "standing_dunk": 52,
+      "post_control": 79
+    },
+    "shooting": {
+      "mid_range_shot": 92,
+      "three_point_shot": 89
+    },
+    "defense": {
+      "interior_defense": 72,
+      "block": 67
+    },
+    "rebounding": {
+      "offensive_rebound": 68,
+      "defensive_rebound": 68
+    },
+    "physicals": {
+      "strength": 68
+    }
+  },
+  "6'11": {
+    "finishing": {
+      "driving_dunk": 97,
+      "standing_dunk": 53,
+      "post_control": 79
+    },
+    "shooting": {
+      "mid_range_shot": 90,
+      "three_point_shot": 88
+    },
+    "defense": {
+      "interior_defense": 72,
+      "block": 68
+    },
+    "rebounding": {
+      "offensive_rebound": 69,
+      "defensive_rebound": 69
+    },
+    "physicals": {
+      "strength": 67
+    }
+  }
+}

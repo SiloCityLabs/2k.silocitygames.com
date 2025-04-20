@@ -1,0 +1,35 @@
+{
+  "finishing": {
+    "close_shot": 99,
+    "driving_layup": 99,
+    "driving_dunk": 94,
+    "standing_dunk": 51,
+    "post_control": 80
+  },
+  "shooting": {
+    "mid_range_shot": 96,
+    "three_point_shot": 94,
+    "free_throw": 99
+  },
+  "playmaking": {
+    "pass_accuracy": 99,
+    "ball_handle": 97,
+    "speed_with_ball": 92
+  },
+  "defense": {
+    "interior_defense": 73,
+    "perimeter_defense": 99,
+    "steal": 99,
+    "block": 63
+  },
+  "rebounding": {
+    "offensive_rebound": 66,
+    "defensive_rebound": 66
+  },
+  "physicals": {
+    "speed": 97,
+    "agility": 96,
+    "strength": 74,
+    "vertical": 99
+  }
+}
