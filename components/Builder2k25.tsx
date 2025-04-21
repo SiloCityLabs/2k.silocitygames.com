@@ -206,7 +206,8 @@ function Builder2k25() {
                       "2k25",
                       selectedPosition,
                       selectedHeight,
-                      selectedWeight
+                      selectedWeight,
+                      selectedWingspan
                     ),
                   }}
                 />
