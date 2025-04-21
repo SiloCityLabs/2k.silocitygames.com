@@ -1,7 +1,7 @@
 ---
 name: Add 2K Ratings Template
 about: Create a custom feature request
-title: "[InsertGame] - Add 2K Ratings - [P-{position}/H-{height}/W-{weight}]"
+title: "[InsertGame] - Add 2K Ratings - [P-{position}/H-{height}/W-{weight}/WP-{wingspan}]"
 labels: enhancement
 assignees: ""
 ---
@@ -15,256 +15,47 @@ Weight:
 
 Update this example below:
 
-### This is an example of a PG/6"3/170
-
-### Below you create a group for each wingspan and put what the changes are from the "base ratings"
+### This is an example of a PG/6"3/170/6'7"
 
 {
-"6'3": {
-"finishing": {
-"driving_dunk": 90,
-"standing_dunk": 49,
-"post_control": 77
-},
-"shooting": {
-"mid_range_shot": 99,
-"three_point_shot": 99
-},
-"playmaking": {
-"speed_with_ball": 93
-},
-"defense": {
-"interior_defense": 68,
-"perimeter_defense": 85,
-"steal": 93,
-"block": 59
-},
-"rebounding": {
-"offensive_rebound": 58,
-"defensive_rebound": 58
-},
-"physicals": {
-"speed": 99,
-"agility": 99,
-"strength": 56
+  "position": "Shooting Guard",
+  "height": "6'0\"",
+  "weight": "170 lbs",
+  "wingspan": "6'7\"",
+  "attributes": {
+    "finishing": {
+      "Close Shot": 99,
+      "Driving Layup": 99,
+      "Driving Dunk": 92,
+      "Standing Dunk": 40,
+      "Post Control": 67
+    },
+    "shooting": {
+      "Mid-Range Shot": 91,
+      "Three-Point Shot": 89,
+      "Free Throw": 99
+    },
+    "playmaking": {
+      "Pass Accuracy": 99,
+      "Ball Handle": 99,
+      "Speed With Ball": 97
+    },
+    "defense": {
+      "Interior Defense": 55,
+      "Perimeter Defense": 96,
+      "Steal": 99,
+      "Block": 62
+    },
+    "rebounding": {
+      "Offensive Rebound": 56,
+      "Defensive Rebound": 64
+    },
+    "physicals": {
+      "Speed": 99,
+      "Agility": 99,
+      "Strength": 53,
+      "Vertical": 99
+    }
+  }
 }
-},
-"6'4": {
-"finishing": {
-"driving_dunk": 91,
-"standing_dunk": 49,
-"post_control": 77
-},
-"shooting": {
-"mid_range_shot": 99,
-"three_point_shot": 98
-},
-"playmaking": {
-"speed_with_ball": 93
-},
-"defense": {
-"interior_defense": 68,
-"perimeter_defense": 86,
-"steal": 95,
-"block": 60
-},
-"rebounding": {
-"offensive_rebound": 59,
-"defensive_rebound": 59
-},
-"physicals": {
-"speed": 99,
-"agility": 99,
-"strength": 56
-}
-},
-"6'5": {
-"finishing": {
-"driving_dunk": 92,
-"standing_dunk": 50,
-"post_control": 77
-},
-"shooting": {
-"mid_range_shot": 99,
-"three_point_shot": 97
-},
-"playmaking": {
-"speed_with_ball": 93
-},
-"defense": {
-"interior_defense": 68,
-"perimeter_defense": 86,
-"steal": 97,
-"block": 61
-},
-"rebounding": {
-"offensive_rebound": 60,
-"defensive_rebound": 60
-},
-"physicals": {
-"speed": 99,
-"agility": 99,
-"strength": 55
-}
-},
-"6'6": {
-"finishing": {
-"driving_dunk": 93,
-"standing_dunk": 50,
-"post_control": 77
-},
-"shooting": {
-"mid_range_shot": 98,
-"three_point_shot": 95
-},
-"playmaking": {
-"speed_with_ball": 93
-},
-"defense": {
-"interior_defense": 68,
-"perimeter_defense": 87,
-"block": 62
-},
-"rebounding": {
-"offensive_rebound": 61,
-"defensive_rebound": 61
-},
-"physicals": {
-"speed": 99,
-"agility": 99,
-"strength": 54
-}
-},
-"6'7": {
-"finishing": {
-"post_control": 77
-},
-"playmaking": {
-"speed_with_ball": 93
-},
-"defense": {
-"interior_defense": 68,
-"perimeter_defense": 88
-},
-"rebounding": {
-"offensive_rebound": 62,
-"defensive_rebound": 62
-},
-"physicals": {
-"speed": 99,
-"agility": 99,
-"strength": 54
-}
-},
-"6'8": {
-"finishing": {
-"driving_dunk": 95,
-"post_control": 77
-},
-"shooting": {
-"mid_range_shot": 95,
-"three_point_shot": 92
-},
-"playmaking": {
-"speed_with_ball": 93
-},
-"defense": {
-"interior_defense": 68,
-"perimeter_defense": 89,
-"block": 65
-},
-"rebounding": {
-"offensive_rebound": 63,
-"defensive_rebound": 63
-},
-"physicals": {
-"speed": 99,
-"agility": 99,
-"strength": 53
-}
-},
-"6'9": {
-"finishing": {
-"driving_dunk": 96,
-"standing_dunk": 52,
-"post_control": 77
-},
-"shooting": {
-"mid_range_shot": 93,
-"three_point_shot": 91
-},
-"playmaking": {
-"speed_with_ball": 93
-},
-"defense": {
-"interior_defense": 68,
-"perimeter_defense": 89,
-"block": 66
-},
-"rebounding": {
-"offensive_rebound": 63,
-"defensive_rebound": 63
-},
-"physicals": {
-"speed": 99,
-"agility": 99,
-"strength": 53
-}
-},
-"6'10": {
-"finishing": {
-"driving_dunk": 96,
-"standing_dunk": 52,
-"post_control": 77
-},
-"shooting": {
-"mid_range_shot": 92,
-"three_point_shot": 89
-},
-"playmaking": {
-"speed_with_ball": 93
-},
-"defense": {
-"interior_defense": 68,
-"perimeter_defense": 90,
-"block": 67
-},
-"rebounding": {
-"offensive_rebound": 64,
-"defensive_rebound": 64
-},
-"physicals": {
-"speed": 99,
-"agility": 99,
-"strength": 52
-}
-},
-"6'11": {
-"finishing": {
-"driving_dunk": 97,
-"standing_dunk": 53,
-"post_control": 77
-},
-"shooting": {
-"mid_range_shot": 90,
-"three_point_shot": 88
-},
-"playmaking": {
-"speed_with_ball": 93
-},
-"defense": {
-"interior_defense": 68,
-"perimeter_defense": 91,
-"block": 68
-},
-"rebounding": {
-"offensive_rebound": 65,
-"defensive_rebound": 65
-},
-"physicals": {
-"speed": 99,
-"agility": 99,
-"strength": 52
-}
-}
-}
+
